@@ -1,0 +1,112 @@
+/* Navbar */
+.navbar {
+  background-color: #4CAF50;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.navbar-logo h1 {
+  font-size: 2rem;
+}
+
+/* Project List */
+.main-container {
+  margin: 2rem;
+}
+
+.project-list {
+  margin-top: 2rem;
+}
+
+.project-item {
+  background-color: #f9f9f9;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+  transform: translateY(-10px);
+}
+
+/* Task List */
+.task-list {
+  margin-top: 1rem;
+}
+
+.task-item {
+  background-color: #ffffff;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border-left: 4px solid #4CAF50;
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* Add Project Form */
+.add-project-form {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.add-project-form input,
+.add-project-form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.add-project-form button {
+  padding: 0.75rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add Task Form */
+.add-task-form {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.add-task-form input,
+.add-task-form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.add-task-form button {
+  padding: 0.75rem;
+  background-color: #FF9800;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
